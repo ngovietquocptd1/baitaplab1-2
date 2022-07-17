@@ -10,7 +10,6 @@ app.use(express.json());// json gui du lieu ve
 app.get("/",(req,res)=>{
     res.json({message:"Xin Chao ban den ung dung quan ly danh ba!"});
 });
-app.use("/api/contacts",contactRouter);
 
 //export app ra
 module.exports=app;
